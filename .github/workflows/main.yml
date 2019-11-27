@@ -15,4 +15,4 @@ jobs:
           FTP_USERNAME: sebastienserre
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           REMOTE_DIR: /var/www/thivinfo.com/test-deploy
-          ARGS: --verbose --continue
+          ARGS: --verbose --continue --exclude-glob=.git*/** --exclude-glob=.git** --delete-excluded
