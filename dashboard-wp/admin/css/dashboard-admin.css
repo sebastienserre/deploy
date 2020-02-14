@@ -1,0 +1,25 @@
+.tma-left-5 span {
+	color: red;
+	font-weight: bold;
+}
+
+.alert-msg {
+	border: 1px solid #fe5000;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.alert-msg.important-notice {
+	background: #fe5000;
+	color: #fff;
+}
+
+.dbwp-admin-widget-support input {
+	display: inline-block;
+	width: 100%;
+}
+
+.dbwp-admin-widget-support {
+	margin-top: 25px;
+}

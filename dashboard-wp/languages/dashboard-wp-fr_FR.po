@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Dashboard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-11 15:14+0000\n"
+"PO-Revision-Date: 2020-01-11 15:15+0000\n"
+"Last-Translator: sebastienserre <sebastien@thivinfo.com>\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: admin/settings.php:10
+msgid "Dashboard WP Settings"
+msgstr "Réglages de WP Dashboard"
+
+#: admin/settings.php:21
+msgid "General"
+msgstr "Général"
+
+#: admin/settings.php:22 admin/settings.php:26
+msgid "Help"
+msgstr "Aide"
+
+#: admin/dashboard-admin.php:94
+msgid "Last Updates"
+msgstr "Dernières Mise à jour"
+
+#: admin/dashboard-admin.php:118
+msgid "Draft"
+msgstr "Brouillon"
+
+#: admin/dashboard-admin.php:121
+msgid "Pending"
+msgstr "En attente de relecture"
+
+#: admin/dashboard-admin.php:124
+#, php-format
+msgid "Planned for %1$s"
+msgstr "Planifié pour le %1$s"
+
+#: admin/dashboard-admin.php:128
+msgid "Auto-Draft"
+msgstr "Brouillon automatique"
+
+#: admin/dashboard-admin.php:131
+#, php-format
+msgid "Published on %1$s"
+msgstr "Publié le %1$s"
+
+#: admin/dashboard-admin.php:139
+msgid "Modify"
+msgstr "Modifier"
+
+#: admin/dashboard-admin.php:148
+#, php-format
+msgid "On %2$s at %3$s"
+msgstr "Le %2$s à %3$s"
+
+#: admin/dashboard-admin.php:158
+msgid "Title / Link"
+msgstr "Titre / Lien"
+
+#: admin/dashboard-admin.php:159
+msgid "Status"
+msgstr "Statut"
+
+#: admin/dashboard-admin.php:160
+msgid "Type"
+msgstr "Type"
+
+#: admin/dashboard-admin.php:161
+msgid "Authors"
+msgstr "Auteur"
+
+#: admin/dashboard-admin.php:162
+msgid "Last modification"
+msgstr "Dernière modification"
+
+#: admin/dashboard-admin.php:171
+msgid "There's no draft for the moment"
+msgstr "Il n'y a pas de brouillon pour le moment"
+
+#: inc/helpers.php:273
+msgid "Information missing in Main Site Settings"
+msgstr "Information manquante sur le site principal"
+
+#: inc/helpers.php:377
+#, php-format
+msgid "%1$s hour %2$s"
+msgid_plural "%1$s hours %2$s"
+msgstr[0] "%1$s heure %2$s"
+msgstr[1] "%1$s heures %2$s"
+
+#: inc/helpers.php:385
+#, php-format
+msgid ""
+"<p class=\"wpdb_tma  %3$s \">Updated on <span>%1$s</span>: you had <span>"
+"%2$s</span> of TMA left</p>"
+msgstr ""
+"<p class=\"wpdb_tma  %3$s \">Mis à jour le <span>%1$s</span>: Reste <span>"
+"%2$s</span> de TMA.</p>"
+
+#: inc/helpers.php:402
+msgid ""
+"<p class=\"wpdb_no_tma\">You didn't have any TMA account. To get support, "
+"please contact me!</p>"
+msgstr ""
+"<p class=\"wpdb_no_tma\">Vous n'avez pas encore de TMA. Pour avoir de l'aide "
+"et de l'assistance, contactez moi !</p>"
+
+#: inc/website-taxo.php:11
+msgctxt "Taxonomy General Name"
+msgid "Websites"
+msgstr "Sites"
+
+#: inc/website-taxo.php:12
+msgctxt "Taxonomy Singular Name"
+msgid "Website"
+msgstr "Site"
+
+#: inc/website-taxo.php:13 inc/website-taxo.php:14
+msgid "Websites"
+msgstr "Sites"
+
+#: inc/website-taxo.php:15
+msgid "Parent website"
+msgstr "Site parent:"
+
+#: inc/website-taxo.php:16
+msgid "Parent website:"
+msgstr "Site parent:"
+
+#: inc/website-taxo.php:17
+msgid "New website Name"
+msgstr "Nom du nouveau site"
+
+#: inc/website-taxo.php:18
+msgid "Add New website"
+msgstr "Ajouter un site"
+
+#: inc/website-taxo.php:19
+msgid "Edit website"
+msgstr "Modifier le site"
+
+#: inc/website-taxo.php:20
+msgid "Update website"
+msgstr "Mettre a jour le site"
+
+#: inc/website-taxo.php:21
+msgid "View website"
+msgstr "Voir le site"
+
+#: inc/website-taxo.php:22
+msgid "Separate website with commas"
+msgstr "Séparer avec des virgules"
+
+#: inc/website-taxo.php:23
+msgid "Add or remove website"
+msgstr "Ajouter ou supprimer le site"
+
+#: inc/website-taxo.php:24
+msgid "Choose from the most used"
+msgstr "Choisir parmi les plus utilisées"
+
+#: inc/website-taxo.php:25
+msgid "Popular website"
+msgstr "Site populaire"
+
+#: inc/website-taxo.php:26
+msgid "Search website"
+msgstr "Chercher"
+
+#: inc/website-taxo.php:27
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: inc/website-taxo.php:28
+msgid "No website"
+msgstr "Pas de site"
+
+#: inc/website-taxo.php:29
+msgid "website list"
+msgstr "Liste"
+
+#: inc/website-taxo.php:30
+msgid "website list navigation"
+msgstr "Liste des sites"
+
+#: inc/alert-cpt.php:12
+msgctxt "Post Type General Name"
+msgid "Alerts"
+msgstr "Alertes"
+
+#: inc/alert-cpt.php:13
+msgctxt "Post Type Singular Name"
+msgid "Alert"
+msgstr "Alerte"
+
+#: inc/alert-cpt.php:14
+msgid "Alerts"
+msgstr "Alertes"
+
+#: inc/alert-cpt.php:15 inc/alert-cpt.php:41 inc/alert-cpt.php:42
+msgid "Alert"
+msgstr "Alerte"
+
+#: inc/alert-cpt.php:16
+msgid "Alert Archives"
+msgstr "Archive d'alertes"
+
+#: inc/alert-cpt.php:17
+msgid "Alert Attributes"
+msgstr "Attributs des alertes"
+
+#: inc/alert-cpt.php:18
+msgid "Parent Alert:"
+msgstr "Alerte parent :"
+
+#: inc/alert-cpt.php:19
+msgid "All Alerts"
+msgstr "Toutes les alertes"
+
+#: inc/alert-cpt.php:20
+msgid "Add New Alert"
+msgstr "Ajouter une alerte"
+
+#: inc/alert-cpt.php:21
+msgid "Add New"
+msgstr "Ajouter"
+
+#: inc/alert-cpt.php:22
+msgid "New Alert"
+msgstr "Nouvelle alerte"
+
+#: inc/alert-cpt.php:23
+msgid "Edit Alert"
+msgstr "Modifier l'alerte"
+
+#: inc/alert-cpt.php:24
+msgid "Update Alert"
+msgstr "Mettre à jour l'alerte"
+
+#: inc/alert-cpt.php:25
+msgid "View Alert"
+msgstr "Voir l'alerte"
+
+#: inc/alert-cpt.php:26
+msgid "View Alerts"
+msgstr "Voir les alertes"
+
+#: inc/alert-cpt.php:27
+msgid "Search Alert"
+msgstr "Cherhcer"
+
+#: inc/alert-cpt.php:28
+msgid "Not found"
+msgstr "Non trouvé"
+
+#: inc/alert-cpt.php:29
+msgid "Not found in Trash"
+msgstr "Non trouvé"
+
+#: inc/alert-cpt.php:30
+msgid "Featured Image"
+msgstr "Image mise en avant"
+
+#: inc/alert-cpt.php:31
+msgid "Set featured image"
+msgstr "Mettre une image en avant"
+
+#: inc/alert-cpt.php:32
+msgid "Remove featured image"
+msgstr "Retirer l'image en avant"
+
+#: inc/alert-cpt.php:33
+msgid "Use as featured image"
+msgstr "Utiliser comme image à la une"
+
+#: inc/alert-cpt.php:34
+msgid "Insert into item"
+msgstr "Insérer"
+
+#: inc/alert-cpt.php:35
+msgid "Uploaded to this item"
+msgstr "Téléversé sur cet article"
+
+#: inc/alert-cpt.php:36
+msgid "Alerts list"
+msgstr "Liste d'alertes"
+
+#: inc/alert-cpt.php:37
+msgid "Alerts list navigation"
+msgstr "Liste des alertes"
+
+#: inc/alert-cpt.php:38
+msgid "Filter items list"
+msgstr "Filtrer la liste"
+
+#: inc/acf-fields.php:17
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: inc/acf-fields.php:21
+msgid "Welcome Message"
+msgstr "Message de bienvenue"
+
+#: inc/acf-fields.php:40
+msgid "Title"
+msgstr "Titre"
+
+#: inc/acf-fields.php:59
+msgid "Slogan"
+msgstr "Slogan"
+
+#: inc/acf-fields.php:80
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/acf-fields.php:83
+msgid "URL to the Logo"
+msgstr "URL vers le logo"
+
+#: inc/acf-fields.php:104
+msgid "Social"
+msgstr "Réseaux Sociaux"
+
+#: inc/acf-fields.php:123
+msgid "Name"
+msgstr "Nom"
+
+#: inc/acf-fields.php:145
+msgid "URL"
+msgstr "URL"
+
+#: inc/acf-fields.php:166
+msgid "Posts"
+msgstr "Publications"
+
+#: inc/acf-fields.php:187
+msgid "Number of posts"
+msgstr "Nombre de publication"
+
+#: inc/acf-fields.php:208
+msgid "Have my own CSS"
+msgstr "J'ai mon propre CSS"
+
+#: inc/acf-fields.php:222 inc/acf-fields.php:331
+msgid "Yes"
+msgstr "Oui"
+
+#: inc/acf-fields.php:223 inc/acf-fields.php:332
+msgid "No"
+msgstr "Non"
+
+#: inc/acf-fields.php:227
+msgid "CSS"
+msgstr "CSS"
+
+#: inc/acf-fields.php:230
+msgid "URL to a CSS file"
+msgstr "URL vers une feuille CSS"
+
+#: inc/acf-fields.php:313
+msgid "Alerts Options"
+msgstr "Options des Alertes"
+
+#: inc/acf-fields.php:317
+msgid "Important"
+msgstr "Important"
+
+#: inc/acf-fields.php:320
+msgid "Check yes if your alert is important. It will be stylized differently"
+msgstr ""
+"Cochez oui si votre alerte est importante. Elle sera stylée différemment (si "
+"votre CSS est adapté)."
+
+#: inc/acf-fields.php:328
+msgid "Important notice ?"
+msgstr "Alerte importante ?"
+
+#: inc/acf-fields.php:361
+msgid "TMA"
+msgstr "TMA"
+
+#: inc/acf-fields.php:365
+msgid "Date"
+msgstr "Date"
+
+#: inc/acf-fields.php:382
+msgid "Due Time"
+msgstr "Temps restant"
+
+#: admin/inc/class-dashboard-widget.php:49
+msgid "Need Support? Ask a Question:"
+msgstr "Besoin d'aide ? Posez votre question :"
+
+#: admin/inc/class-dashboard-widget.php:52
+msgid "Subject"
+msgstr "Sujet"
+
+#: admin/inc/class-dashboard-widget.php:55
+msgid "Message"
+msgstr "Message"
+
+#: admin/inc/class-dashboard-widget.php:100
+msgid "Website: "
+msgstr "Site Web:"
+
+#. Name of the plugin
+msgid "WordPress Dashboard"
+msgstr "WordPress Dashboard"
+
+#. Description of the plugin
+msgid "Thivinfo Custom Dashboard for WordPress."
+msgstr "Thivinfo Custom Dashboard for WordPress."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://thivinfo.com"
+msgstr "https://thivinfo.com"
+
+#. Author of the plugin
+msgid "Thivinfo"
+msgstr "Thivinfo"
