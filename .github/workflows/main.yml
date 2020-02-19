@@ -15,4 +15,4 @@ jobs:
           ftp-server: sftp://ns3044267.siegler-informatique.fr:61212/var/www/thivinfo.com/test-deploy
           ftp-username: sebastienserre
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          git-ftp-args: --insecure
+          git-ftp-args: --insecure --key ${{ secrets.PUBKEY }}
