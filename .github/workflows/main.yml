@@ -10,12 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@2.0.0
-        env:
-          FTP_SERVER: ns3044267.siegler-informatique.fr
-          PORT: 61212
-          METHOD: sftp
-          FTP_USERNAME: sebastienserre
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          REMOTE_DIR: /var/www/thivinfo.com/test-deploy
+        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        with:
+          ftp-server: sft://ns3044267.siegler-informatique.fr:61212/var/www/thivinfo.com/test-deploy
+          ftp-username: sebastienserre
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
           ARGS: --verbose --continue --exclude-glob=.git*/** --exclude-glob=.git** --delete-excluded --delete --ignore-time
