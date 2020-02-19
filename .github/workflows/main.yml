@@ -12,7 +12,6 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.0.0
         with:
-          ftp-server: ns3044267.siegler-informatique.fr:61212/var/www/thivinfo.com/test-deploy
+          ftp-server: sftp://ns3044267.siegler-informatique.fr:61212/var/www/thivinfo.com/test-deploy
           ftp-username: sebastienserre
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          ARGS: --verbose --continue --exclude-glob=.git*/** --exclude-glob=.git** --delete-excluded --delete --ignore-time
