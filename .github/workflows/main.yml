@@ -19,4 +19,5 @@ jobs:
         with:
           server: sftp://ns3044267.siegler-informatique.fr:61212/
           username: sebastienserre
+          protocol: ftps
           password: ${{ secrets.FTP_PASSWORD }}
