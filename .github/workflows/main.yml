@@ -1,18 +1,23 @@
+name: Staging Deploy
+
 on:
   push:
-    branches:
-      - master
-name: Publish Website
+    branches: [ master ]
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+  build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./themes/our-awesome-theme
     steps:
-      - uses: actions/checkout@master
-      - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      - uses: actions/checkout@v2
         with:
-          ftp-server: sftp://ns3044267.siegler-informatique.fr:61212/var/www/thivinfo.com/test-deploy
+          fetch-depth: 2
+      - name: FTP Deploy to WP Engine (Staging)
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: sftp://ns3044267.siegler-informatique.fr:61212/
           ftp-username: sebastienserre
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          git-ftp-args: --insecure --changed-only
+          local-dir: /home/sebastienserre/deploy
