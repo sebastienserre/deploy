@@ -14,10 +14,10 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 2
-      - name: FTP Deploy to WP Engine (Staging)
+      - name: FTP Deploy to Server
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
           ftp-server: sftp://ns3044267.siegler-informatique.fr:61212/
           ftp-username: sebastienserre
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: /home/sebastienserre/deploy
+          local-dir: /home/sebastienserre/deploy/
