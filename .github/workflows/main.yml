@@ -20,4 +20,3 @@ jobs:
           ftp-server: sftp://ns3044267.siegler-informatique.fr:61212/
           ftp-username: sebastienserre
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: /home/sebastienserre/deploy/
