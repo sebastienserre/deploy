@@ -21,4 +21,3 @@ jobs:
           port: 10021
           username: sebastienserre
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
