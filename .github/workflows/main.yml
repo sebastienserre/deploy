@@ -17,6 +17,6 @@ jobs:
       - name: FTP Deploy to Server
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: sftp://ftp.thivinfo.fr
+          server: ftp.thivinfo.fr
           username: deploy@thivinfo.fr
           password: ${{ secrets.FTP_PASSWORD }}
