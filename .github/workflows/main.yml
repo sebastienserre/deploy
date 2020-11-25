@@ -21,4 +21,4 @@ jobs:
           port: 61212
           username: sebastienserre
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./deploy/
+          local-dir: deploy/
