@@ -17,7 +17,8 @@ jobs:
       - name: FTP Deploy to Server
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: sftp://ns3044267.siegler-informatique.fr
+          server: ns3044267.siegler-informatique.fr
           port: 61212
           username: sebastienserre
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: sftp
