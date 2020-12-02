@@ -14,7 +14,8 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           server: ns3044267.siegler-informatique.fr
-          port: 61212
+          port: 10021
+          protocol: ftps
           username: sebastienserre
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /var/www/thivinfo.com/test-deploy/
