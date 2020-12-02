@@ -3,19 +3,19 @@ name: Staging Deploy
 on:
   push:
     branches: [ master ]
-      jobs:
-        deploy_job:
-          runs-on: ubuntu-latest
-          name: deploy
-          steps:
+jobs:
+  deploy_job:
+    runs-on: ubuntu-latest
+      name: deploy
+        steps:
             - name: Checkout
               uses: actions/checkout@v2
             - name: deploy file
               uses: wlixcc/SFTP-Deploy-Action@v1.0
               with:
-                username: 'sebastienserre'
-                server: 'ns3044267.siegler-informatique.fr'
-                ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-                local_path: './'
-                remote_path: '/var/www/thivinfo.com/test-deploy/'
-                args: '-o ConnectTimeout=5'
+              username: 'sebastienserre'
+              server: 'ns3044267.siegler-informatique.fr'
+              ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+              local_path: './'
+              remote_path: '/var/www/thivinfo.com/test-deploy/'
+              args: '-o ConnectTimeout=5'
