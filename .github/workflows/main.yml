@@ -6,8 +6,8 @@ on:
 jobs:
   deploy_job:
     runs-on: ubuntu-latest
-      name: deploy
-        steps:
+    name: deploy
+    steps:
           - name: Checkout
             uses: actions/checkout@v2
           - name: deploy file
